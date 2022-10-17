@@ -1885,3 +1885,23 @@ footer span:hover {
 .contact_info a:hover {
   color: var(--color-orange);
 }
+
+
+@media screen and (max-width: 989px){
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width: 615px){
+  .social_links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media screen and (max-width: 381px){
+  .social_links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
